@@ -19,5 +19,6 @@ const playKey = (key) => {
 };
 
 const redirect = () => {
-  window.location.href = "https://github.com/MaheshUdvag/Javascript-learning";
+  window.location.href =
+    "https://github.com/MaheshUdvag/Javascript-learning/tree/main/challenges/Piano";
 };

@@ -1,0 +1,73 @@
+html,
+body {
+  margin-top: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  margin: 0;
+  background: url("https://ringtoneswallpapers.mobi/wp-content/uploads/2020/10/colour-music.jpg");
+  text-align: center;
+  color: white;
+}
+
+.button {
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.piano {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.note {
+  position: relative;
+  height: 250px;
+  padding: 10px;
+  width: 50px;
+  text-align: center;
+  cursor: pointer;
+  color: black;
+}
+
+.white {
+  background-color: #f4f4f4;
+  border: 1px solid black;
+}
+
+.white.active {
+  background-color: #bdb9b9;
+  border: 1px solid black;
+}
+
+.black.active {
+  background-color: #666;
+}
+
+.black {
+  background-color: #333;
+  width: 10px;
+  height: 150px;
+  margin-left: -17px;
+  margin-right: -17px;
+  z-index: 40;
+}
+
+.key {
+  position: absolute;
+  bottom: 0;
+}

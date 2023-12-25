@@ -1,0 +1,65 @@
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    gap: 10px;
+}
+
+.frame {
+    border: 20px solid #504a49;
+    padding: 15px;
+    width: 30%; 
+    background-color: #f5f5dc;
+}
+
+.img {
+    position: relative;
+    opacity: 0.1;
+}
+
+.img:hover {
+    cursor: pointer;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    min-height: 300px;
+    min-width: 300px;
+}
+
+.broken-glass {
+    width: 30px;
+    height: 50px;
+    position: relative;
+}
+
+.line {
+    height: 15px;
+    width: 25px;
+    background-color: inherit;
+    border-top: 2px solid #f1f1f1;
+    padding: 10px;
+    position: absolute;
+}
+
+#file {
+    visibility: hidden;
+}
+
+label {
+    background-color: #504a49;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+label:hover {
+    cursor: pointer;
+}

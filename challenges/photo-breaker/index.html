@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css" />
+    <title>Photo Breaker</title>
+</head>
+<body>
+    <h2>Break the Photo</h2>
+    <div class="frame">
+        <div class="img">
+            <img id="photo" src="leo.avif" />
+        </div>
+    </div>
+        <label for="file">Upload an image to break</label>
+    <input type="file" id="file" name="file" placeholder="file" onchange="replaceImage(this)">
+    <script src="index.js"></script>
+</body>
+
+</html>
